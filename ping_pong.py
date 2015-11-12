@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 
-# Michael Adam <obnox@samba.org> 2011
-
+# Copyright (C) Michael Adam <obnox@samba.org> 2011,2015
+#
+# License GPLv3+
+#
 # TODO:
 #  * check success of fcntl calls
-#  * mmap?
+#  * implement mmap?
+#  * catch Ctrl-C nicely
 
 import fcntl
 import struct
