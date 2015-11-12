@@ -117,7 +117,7 @@ def main():
 
     parser.add_option("-r", "--read", help="do reads", default=False, action="store_true")
     parser.add_option("-w", "--write", help="do writes", default=False, action="store_true")
-    # TODO:parser.add_option("-m", "--mmap", help="use mmap", default=False, action="store_true")
+    parser.add_option("-m", "--mmap", help="use mmap", default=False, action="store_true")
 
     (options, args) = parser.parse_args()
 
