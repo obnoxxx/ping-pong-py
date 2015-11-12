@@ -59,7 +59,7 @@ def ping_pong(fd, num_locks, do_reads, do_writes, do_mmap):
     count = 0
     loops = 0
     val = [ 0 for x in range(num_locks) ]
-    print val
+    #print val
     incr = 0
     last_incr = 0
 
